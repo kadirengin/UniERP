@@ -5,12 +5,12 @@ class IdariPersonel extends Personel{
     
     public function getAltPersoneller() {
         $personeller = array(
-            'Orhan Gencebay';
-            'Ferdi Tayfur';
-            'Bülent Serttaş';
-            'Müslüm Gürses';
-            'Bülent Ersoy';
-        )
+            'Orhan Gencebay',
+            'Ferdi Tayfur',
+            'Bülent Serttaş',
+            'Müslüm Gürses',
+            'Bülent Ersoy',
+        );
             return array_rand($personeller, 3);
     }
 }
