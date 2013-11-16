@@ -1,6 +1,6 @@
 <?php
 
-class Ogrenci {
+class Ogrenci extends Kisi {
     
     public $bolum;
     public $OgrenciNo;
