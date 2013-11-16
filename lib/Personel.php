@@ -1,16 +1,9 @@
 <?php
-
-class Personel {
-    public $unvan;
+class Personel extends Kisi{
+    public $birim;
+    public $sicilNo;
     
-    public function getYayinlar(){
-        array(
-            'PHP ye giriş',
-            'PHP ile Nesneye yönelik programlama',
-            'İleri PHP uygulamaları',
-            'Php ve frameworkler'
-            
-        )   ;
-        return $yayinlar;
-}
+    public function getGorevYili() {
+        return date('Y') - $this->baslangicYili;
+    }
 }
